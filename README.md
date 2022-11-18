@@ -1,4 +1,5 @@
-# Depository CERBERE LITIS 
+# LITIS: CERBERE PROJECT
+
 ## You can find the bibliography, scripts to decode Yumain Data and scripts to plot the output data of yumain
  
  
