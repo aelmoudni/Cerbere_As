@@ -1,0 +1,174 @@
+@Article{Xie2017,
+  author   = {Zhen Xie and Shengyong Chen and Garrick Orchard},
+  journal  = {Frontiers in neuroscience},
+  title    = {Event based stereo depth estimation using belief propagation},
+  year     = {2017},
+  month    = oct,
+  pages    = {14},
+  file     = {:/Users/aelmoudn/Downloads/Biblio cerbere /XieChOr_FN17.pdf:PDF},
+  keywords = {event-based camera, stereo matching, event-driven, message passing, belief propagation, disparity map},
+  priority = {prio1},
+}
+
+@Article{HidalgoCarrio,
+  author   = {Javier Hidalgo-Carrio and Daniel Gehrig and Davide Scaramuzza},
+  journal  = {IEEE},
+  title    = {Learning monocular dense depth from events},
+  year     = {2020},
+  abstract = {Event cameras are novel sensors that output bright- ness changes in the form of a stream of asynchronous ”events” instead of intensity frames. Compared to con- ventional image sensors, they offer significant advantages: high temporal resolution, high dynamic range, no motion blur, and much lower bandwidth. Recently, learning-based approaches have been applied to event-based data, thus un- locking their potential and making significant progress in a variety of tasks, such as monocular depth prediction. Most existing approaches use standard feed-forward architec- tures to generate network predictions, which do not lever- age the temporal consistency presents in the event stream. We propose a recurrent architecture to solve this task and show significant improvement over standard feed-forward methods. In particular, our method generates dense depth predictions using a monocular setup, which has not been shown previously. We pretrain our model using a new dataset containing events and depth maps recorded in the CARLA simulator. We test our method on the Multi Vehicle Stereo Event Camera Dataset (MVSEC). Quantitative ex- periments show up to 50% improvement in average depth error with respect to previous event-based methods.},
+  file     = {:3DV20_Hidalgo.pdf:PDF},
+  url      = {http://rpg.ifi.uzh.ch/docs/3DV20_Hidalgo.pdf},
+}
+
+@Article{Gehrig2021,
+  author   = {Mathias Gehrig and Willem Aarents and Daniel Gehrig and Davide Scaramuzza},
+  journal  = {IEEE ROBOTICS AND AUTOMATION LETTERS},
+  title    = {DSEC: A Stereo Event Camera Dataset for Driving Scenarios},
+  year     = {2021},
+  month    = jul,
+  file     = {:/Users/aelmoudn/Downloads/Biblio cerbere /1_Datasets et simulator/GehrigAaGeSc_RAL21.pdf:PDF},
+  keywords = {Data sets for robotic vision, data sets for robot learning, computer vision for transportation.},
+}
+
+@Article{Xie2018,
+  author   = {Zhen Xie and Jianhua Zhang and Pengfei Wang},
+  journal  = {International Journal of Advanced Robotic Systems},
+  title    = {Event-based stereo matching using semiglobal matching},
+  year     = {2018},
+  month    = feb,
+  abstract = {In this article, we focus on the problem of depth estimation from a stereo pair of event-based sensors. These sensors asynchronously capture pixel-level brightness changes information (events) instead of standard intensity images at a specified frame rate. So, these sensors provide sparse data at low latency and high temporal resolution over a wide intrascene dynamic range. However, new asynchronous, event-based processing algorithms are required to process the event streams. We propose a fully event-based stereo three-dimensional depth estimation algorithm inspired by semiglobal matching. Our algorithm considers the smoothness constraints between the nearby events to remove the ambiguous and wrong matches when only using the properties of a single event or local features. Experimental validation and comparison with several state- of-the-art, event-based stereo matching methods are provided on five different scenes of event-based stereo data sets. The results show that our method can operate well in an event-driven way and has higher estimation accuracy.},
+  doi      = {10.1177/1729881417752759},
+  file     = {:/Users/aelmoudn/Downloads/Event-based_stereo_matching_using_semiglobal_match.pdf:PDF},
+  keywords = {Event-based camera, stereo matching, semiglobal matching, event-driven, disparity map},
+}
+
+@Article{Zhu2018,
+  author   = {Alex Zihao Zhu and Yibo Chen and Kostas Daniilidis},
+  title    = {Realtime Time Synchronized Event based-Stereo},
+  year     = {2018},
+  abstract = {In this work, we propose a novel event based stereo method which addresses the problem of motion blur for a moving event camera. Our method uses the velocity of the camera and a range of disparities to synchronize the positions of the events, as if they were captured at a single point in time. We represent these events using a pair of novel time synchronized event disparity volumes, which we show remove mo- tion blur for pixels at the correct disparity in the volume, while further blurring pixels at the wrong disparity. We then apply a novel matching cost over these time synchronized event disparity volumes, which both rewards similarity between the volumes while penalizing blurriness. We show that our method outperforms more expensive, smoothing based event stereo methods, by evaluating on the Multi Vehicle Stereo Event Camera dataset.},
+  file     = {:/Users/aelmoudn/Downloads/Biblio cerbere /ZhuChDa_ECCV18.pdf:PDF},
+}
+
+@Article{Gallego2022,
+  author   = {Guillermo Gallego and Tobi Delbruck and Garrick Orchard and Chiara Bartolozzi and Brian Tabaand Andrea Censi and Stefan Leutenegger and Andrew J. Davison and Jorg Conradt and Kostas Daniilidis ,and Davide Scaramuzza},
+  journal  = {IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE},
+  title    = {Event based vision: a survey},
+  year     = {2022},
+  abstract = {Event cameras are bio-inspired sensors that differ from conventional frame cameras: Instead of capturing images at a fixed rate, they asynchronously measure per-pixel brightness changes, and output a stream of events that encode the time, location and sign of the brightness changes. Event cameras offer attractive properties compared to traditional cameras: high temporal resolution (in the order of ms), very high dynamic range (140 dB versus 60 dB), low power consumption, and high pixel bandwidth (on the order of kHz) resulting in reduced motion blur. Hence, event cameras have a large potential for robotics and computer vision in challenging scenarios for traditional cameras, such as low-latency, high speed, and high dynamic range. However, novel methods are required to process the unconventional output of these sensors in order to unlock their potential. This paper provides a comprehensive overview of the emerging field of event-based vision, with a focus on the applications and the algorithms developed to unlock the outstanding properties of event cameras. We present event cameras from their working principle, the actual sensors that are available and the tasks that they have been used for, from low-level vision (feature detection and tracking, optic flow, etc.) to high-level vision (reconstruction, segmentation, recognition). We also discuss the techniques developed to process events, including learning-based techniques, as well as specialized processors for these novel sensors, such as spiking neural networks. Additionally, we highlight the challenges that remain to be tackled and the opportunities that lie ahead in the search for a more efficient, bio-inspired way for machines to perceive and interact with the world.},
+  file     = {:/Users/aelmoudn/Downloads/Biblio cerbere /2_Survey/Gallego_etal_PAMI22.pdf:PDF},
+  keywords = {Event cameras, bio-inspired vision, asynchronous sensor, low latency, high dynamic range, low power},
+}
+
+@Article{Rebecq2017,
+  author   = {Henri Rebecq and Guillermo Gallego and Davide Scaramuzza and Elias Mueggler},
+  journal  = {International Journal of Computer Vision},
+  title    = {EMVS: Event-Based Multi-View Stereo—3D Reconstructionwith an Event Camera in Real-Time},
+  year     = {2017},
+  month    = nov,
+  abstract = {Abstract Event cameras are bio-inspired vision sensors that output pixel-level brightness changes instead of standard intensity frames. They offer significant advantages over standard cameras, namely a very high dynamic range, no motion blur, and a latency in the order of microseconds. However, because the output is composed of a sequence of asynchronous events rather than actual intensity images, traditional vision algorithms cannot be applied, so that a paradigm shift is needed. We introduce the problem of event- based multi-view stereo (EMVS) for event cameras and pro- pose a solution to it. Unlike traditional MVS methods, which address the problem of estimating dense 3D structure from a set of known viewpoints, EMVS estimates semi-dense 3D structure from an event camera with known trajectory. Our EMVS solution elegantly exploits two inherent properties of an event camera: (1) its ability to respond to scene edges— which naturally provide semi-dense geometric information without any pre-processing operation—and (2) the fact that it provides continuous measurements as the sensor moves. Despite its simplicity (it can be implemented in a few lines of code), our algorithm is able to produce accurate, semi-dense depth maps, without requiring any explicit data association or intensity estimation. We successfully validate our method on both synthetic and real data. Our method is computationally very efficient and runs in real-time on a CPU.},
+  file     = {:PDF_FILES/IJCV17_Rebecq.pdf:PDF},
+  url      = {https://rpg.ifi.uzh.ch/docs/IJCV17_Rebecq.pdf},
+}
+
+@Article{Ghosh2022,
+  author   = {Suman Ghosh and Guillermo Gallego},
+  journal  = {Advanced Intelligent Systems},
+  title    = {Multi-Event-Camera Depth Estimation andOutlier Rejection by Refocused Events Fusion},
+  year     = {2022},
+  abstract = {Event cameras are bio-inspired sensors that offer advantages over traditional cameras. They operate asynchronously,
+sampling the scene at microsecond resolution and producing a stream of brightness changes. This unconventional output has sparked novel computer vision methods to unlock the camera’s potential. Here, the problem of event-based stereo 3D reconstruction for SLAM is considered. Most event-based stereo methods attempt to exploit the high temporal resolution of the camera and the simultaneity of events across cameras to establish matches and estimate depth. By contrast, this work investigates how to estimate depth without explicit data association by fusing Disparity Space Images (DSIs) originated in efficient monocular methods. Fusion theory is developed and applied to design multi-camera 3D reconstruction algorithms that produce state-of-the-art results, as confirmed by comparisons with four baseline methods and tests on a variety of available datasets},
+  doi      = {10.1002/aisy.202200221},
+  file     = {:PDF_FILES/2207.10494.pdf:PDF},
+  ranking  = {rank5},
+  url      = {https://arxiv.org/pdf/2207.10494.pdf},
+}
+
+@Article{Zhou2021,
+  author   = {Yi Zhou and Guillermo Gallego and Shaojie Shen},
+  journal  = {IEEE Trans. Robot. (TRO)},
+  title    = {Event-based Stereo Visual Odometry},
+  year     = {2021},
+  abstract = {Event-based cameras are bio-inspired vision sensors
+whose pixels work independently from each other and respond asynchronously to brightness changes, with microsecond resolution. Their advantages make it possible to tackle challenging scenarios in robotics, such as high-speed and high dynamic range scenes. We present a solution to the problem of visual odometry
+from the data acquired by a stereo event-based camera rig. Our system follows a parallel tracking-and-mapping approach, where novel solutions to each subproblem (3D reconstruction and camera pose estimation) are developed with two objectives in mind: being principled and efficient, for real-time operation with commodity hardware. To this end, we seek to maximize the spatio-temporal consistency of stereo event-based data while using a simple and efficient representation. Specifically, the mapping module builds a semi-dense 3D map of the scene by fusing depth estimates from multiple viewpoints (obtained by spatio-temporal consistency) in a probabilistic fashion. The tracking module recovers the pose of the stereo rig by solving a registration problem that naturally arises due to the chosen map and event data representation. Experiments on publicly available datasets and on our own recordings demonstrate the
+versatility of the proposed method in natural scenes with general 6-DoF motion. The system successfully leverages the advantages of event-based cameras to perform visual odometry in challenging illumination conditions, such as low-light and high dynamic range, while running in real-time on a standard CPU. We release the software and dataset under an open source licence to foster research in the emerging topic of event-based SLAM.},
+  file     = {:PDF_FILES/2007.15548.pdf:PDF},
+  url      = {https://arxiv.org/pdf/2007.15548.pdf},
+}
+
+@Article{Gao2022,
+  author  = {Ling Gao and Yuxuan Liang and Jiaqi Yang and Shaoxun Wu and Chenyu Wang and Jiaben Chen and Laurent Kneip},
+  journal = {IEEE ROBOTICS AND AUTOMATION LETTERS},
+  title   = {VECtor: A Versatile Event-Centric Benchmarkfor Multi-Sensor SLAM},
+  year    = {2022},
+  month   = jun,
+  file    = {:PDF_FILES/VECtor.pdf:PDF},
+}
+
+@Article{YURTSEVER2020,
+  author  = {Ekim YURTSEVER and Jacob LAMBERT and Aexander CARBALLO and Kazuya TAKEDA},
+  journal = {IEEE access},
+  title   = {A Survey of Autonomous Driving: CommonPractices and Emerging TechnologiesA Survey of Autonomous Driving: CommonPractices and Emerging Technologies},
+  year    = {2020},
+  month   = apr,
+  url     = {https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9046805},
+}
+
+@Article{HidalgoCarrio2022,
+  author = {Javier Hidalgo-Carrio and Guillermo Gallego and Davide Scaramuzza},
+  title  = {Event-aided Direct Sparse Odometry},
+  year   = {2022},
+  url    = {https://openaccess.thecvf.com/content/CVPR2022/papers/Hidalgo-Carrio_Event-Aided_Direct_Sparse_Odometry_CVPR_2022_paper.pdf},
+}
+
+@Article{Guan2022,
+  author = {Weipeng Guan and Peiyu Chen and Yuhan Xie and Peng Lu},
+  title  = {PL-EVIO: Robust Monocular Event-based Visual InertialOdometry with Point and Line Features},
+  year   = {2022},
+  month  = sep,
+  url    = {https://arxiv.org/pdf/2209.12160v1.pdf},
+}
+
+@Article{Roos2019,
+  author  = {F. Roos and J. Bechter and C. Knill and B. Schweizer and C. Waldschmidt},
+  journal = {IEEE Microwave Magazine},
+  title   = {Radar Sensors for Autonomous Driving: Modulation Schemes and Interference Mitigation},
+  year    = {2019},
+  month   = sep,
+  number  = {9},
+  pages   = {58-72},
+  volume  = {20},
+  doi     = {10.1109/MMM.2019.2922120},
+}
+
+@Article{Royo2019,
+  author  = {Santiago Royo and Maria Ballesta-Garcia},
+  journal = {Applied Sciences},
+  title   = {An Overview of Lidar Imaging Systemsfor Autonomous Vehicles},
+  year    = {2019},
+  month   = sep,
+  number  = {19},
+  doi     = {https://doi.org/10.3390/app9194093},
+  url     = {https://www.mdpi.com/2076-3417/9/19/4093},
+}
+
+@Article{J.Yang2015,
+  author  = {J. Yang and C. Wang and H. Wang and Q. Li},
+  journal = {IEEE Sensors Journal},
+  title   = {A RGB-D Based Real-Time Multiple Object Detection and Ranging System for Autonomous Driving},
+  year    = {2015},
+  month   = oct,
+  number  = {20},
+  pages   = {11959-11966},
+  volume  = {20},
+  doi     = {10.1109/JSEN.2020.2965086.},
+  url     = {https://ieeexplore.ieee.org/abstract/document/8954794},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+@Comment{jabref-meta: grouping:
+0 AllEntriesGroup:;
+1 StaticGroup:SLAM/Tracking\;0\;0\;0x00ffffff\;\;\;;
+}
